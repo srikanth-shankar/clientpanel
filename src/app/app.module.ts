@@ -56,7 +56,7 @@ export const firebaseConfig = {
     RouterModule.forRoot(appRoutes),
     AngularFireModule.initializeApp(firebaseConfig)
   ],
-  providers: [AngularFireAuth, AngularFireDatabase],
+  providers: [AngularFireAuth, AngularFireDatabase, ClientService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
