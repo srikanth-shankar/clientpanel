@@ -3,6 +3,6 @@ export interface IClient{
     firstName?:string;
     lastName?:string;
     email?:string;
-    //phone?:string;
+    phone?:string;
     balance?:Number;
 }
